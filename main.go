@@ -11,9 +11,10 @@ const location = "Remote"
 var name string
 
 func main() {
-	name = "Johnny"
-	from := `Haiti`
-	var n int = 2
+
+	name = "Rich"
+	from := `Virgina`
+	var n = 2
 
 	var proverb = "Undefined"
 	if p, err := proverbs.Nth(4); err == nil {
